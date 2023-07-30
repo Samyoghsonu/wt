@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Crimson+Text:ital@1&family=Frank+Ruhl+Libre&family=Lugrasimo&family=Roboto&family=Roboto+Slab&family=Satisfy&family=Varela+Round&display=swap');
+
+.colori{
+  background-color: rgba(56, 56, 54, 0.237);
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+
+.font-styling-of-geet{
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+}
+
+.lefting{
+  margin-right: 10px;
+}
+.righting{
+  margin-right: 10px;
+}
+
+
+
+.heading-about{
+    margin: 10px 15px;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: black;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Varela Round', sans-serif; */
+   
+   
+  }
+  .heading-about span{
+    margin-top: 20px;
+    margin-left: 0;
+    border-bottom: 0.5px solid #666666;
+
+  }
+
+/* 
+  element.style {
+    background-color: transparent;
+    background-image: url(https://alumni.harvard.edu/sites/default/files/styles/max_1300x1300/public/page/header_image/veritas%20gate_0.jpg?itok=-vgcNJa4);
+
+  }
+  .page-header {
+    position: relative;
+    color: black;
+    background-color: #000000;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    animation: animatedBackground 3.5s ease-in-out;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+} */
+
+.content{
+    margin: 20px 15px;
+    font-size: 1.25rem;
+    font-family: 'Alice', serif;
+}
+
+  /* main{
+    margin-bottom: 500px;
+  } */
+.g-footer{
+    background-color:#464646;    
+    height: 580px;
+  }
+  .flexing-footer{
+    color: white;
+   font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Varela Round', sans-serif;
+  }
+  .footer-cont{
+    display: flex;
+    height: 580px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .flexing-footer{
+    /* border: 1px solid white ; */
+    width: 350px;
+    height: 300px;
+  }
+  .flexing-footer ul li{
+    list-style-type: none;
+  }
+  .flexing-footer li a{
+    text-decoration: none;
+  
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .flexing-footer p{
+    font-size: 18px;
+    margin: 40px 0px;
+    margin-left: 30px;
+  
+    color: white;
+    font-family: "Open Sans";
+  }
+  .copyright{
+    background-color:#464646;    
+    color: #cccccc;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+  }
+/* 
+  @media (min-width: 768px){
+.page-header {
+    background-size: 75%;
+}
+} */

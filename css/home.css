@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&family=Varela+Round&display=swap');
+
+
+.colori{
+    background-color: rgba(56, 56, 54, 0.237);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.corner{
+    display: flex;
+    justify-content: flex-end;
+    background-color:#fff;
+}
+
+.margin{
+    margin-right: 10px;
+}
+.set-height{
+    height: 40px;
+}
+.btn-heights{
+    height: 0px;
+}
+.font-styling-of-geet{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+ /* .imagesize{} */
+ /* width: 1600px;
+ height: 600px; */
+ /* display: block;
+ max-width: 100%;
+ height: auto; */
+
+
+.graduate img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.lefting{
+    margin-right: 10px;
+}
+.righting{
+    margin-right: 10px;
+}
+.carding{
+    margin-top: 40px;
+}
+
+
+/* .blacking-the-footer{
+    background-color:#464646;    
+    color: white;
+    margin-bottom: -55px;
+}
+.background a{
+    color: white;
+} */
+
+.g-footer{
+    background-color:#464646;    
+    height: 580px;
+}
+.flexing-footer{
+    color: white;
+   font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+.footer-cont{
+    display: flex;
+    height: 580px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.flexing-footer{
+    /* border: 1px solid white ; */
+    width: 350px;
+    height: 300px;
+}
+.flexing-footer ul li{
+    list-style-type: none;
+}
+.flexing-footer li a{
+    text-decoration: none;
+
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.flexing-footer p{
+    font-size: 18px;
+    margin: 40px 0px;
+    margin-left: 30px;
+
+    color: white;
+    font-family: "Open Sans";
+}
+.copyright{
+    background-color:#464646;    
+    color: #cccccc;
+  
+   
+}
+.copy-c{
+    color: #cccccc;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.top{
+    color: #cccccc;
+    position: relative;
+    bottom: 40px;
+    margin: 10px;
+}

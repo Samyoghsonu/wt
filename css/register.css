@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-styling-of-geet {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+
+main .forming {
+    display: grid;
+    justify-content: center;
+
+}
+
+main .container {
+  width: 400px;
+  height: 619px;
+  display: grid;
+  justify-content: center;
+  border: 0.1px solid #464646;
+  margin: 96px 10px;
+  padding: 20px 0px;
+}
+
+.container button{
+   width: 294px;
+   display: grid;
+   justify-content: center;
+}
+.forget a label{
+    cursor: pointer;
+}
+.regi{
+    margin-top: 10px;
+}
+
+.regi a{
+    text-decoration: none;
+}
+
+
+.g-footer{
+    background-color:#464646;    
+    height: 580px;
+  }
+  .flexing-footer{
+    color: white;
+   font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Varela Round', sans-serif;
+  }
+  .footer-cont{
+    display: flex;
+    height: 580px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .flexing-footer{
+ 
+    width: 350px;
+    height: 300px;
+  }
+  .flexing-footer ul li{
+    list-style-type: none;
+  }
+  .flexing-footer li a{
+    text-decoration: none;
+  
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .flexing-footer p{
+    font-size: 18px;
+    margin: 40px 0px;
+    margin-left: 30px;
+  
+    color: white;
+    font-family: "Open Sans";
+  }
+  .copyright{
+    background-color:#464646;    
+    color: #cccccc;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+  }
+  .below-submit{
+    padding-top: 6px;
+  }

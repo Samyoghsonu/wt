@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <i class="fa-thin fa-g"></i>
+        <a class="navbar-brand font-styling-of-geet" href="#">Geethanjalites </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Admin Profiles</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+<!--  
+     <h2>Login</h2> -->
+     <div class="forming">
+        <div class="container">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Remember Me</label
+              >
+            </div>
+            <div class="mb-3 forget">
+                <a href=""><label for="exampleInputPassword1" class="form-label"
+                  >Forgot Password?</label
+                ></a>
+              </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="mb-3 regi">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Not a Member? <a href="register.html">Register</a></label
+                >
+          </form>
+        </div>
+      </div>
+    </main>
+
+   <!-- Footer -->
+   <footer class="g-footer">
+    <div class="footer-cont">
+      <div class="flexing-footer">
+        <p class="title">Social Media</p>
+        <ul>
+          <li><a target="_blank" href="https://www.instagram.com/geethanjaligroupofinstitutions/">
+              <span class="iconing">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+              Instagram</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/user/GCTCPORTAL/playlists"> 
+                <span class="iconing">
+                  <i class="fa-brands fa-youtube"></i>
+                </span>
+              Youtube</a></li>
+              
+          <li><a target="_blank" href="https://twitter.com/i/flow/login?redirect_after_login=%2Fgeethanjalites">
+            <span class="iconing">
+              <i class="fa-brands fa-twitter"></i>
+            </span>
+            Twiter</a></li>
+          <li><a target="_blank" href="https://www.facebook.com/geethanjaligroupofinstitutions">
+            <span class="iconing">
+              <i class="fa-brands fa-facebook"></i>
+            </span>
+            FaceBook</a></li>
+
+          <li><a href="">
+            <span class="iconing">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+            LinkedIn</a></li>
+        </ul>
+      </div>
+<!-- Get Help -->
+      <div class="flexing-footer">
+        <p class="title">Get Help</p>
+        <ul>
+          <li><a href="">Contact The Alumni service desk</a></li>
+          <li><a href="">GEt help searching the alumni</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="flexing-footer">
+        <p class="title">About This Site</p>
+        <ul>
+          <li><a href="">Accesibility</a></li>
+          <li>
+            <a href="">terms and conditions</a>
+          </li>
+          <li><a href="">privacy</a></li>
+          <li><a href="">feedback</a></li>
+       
+          <li><a href="">admin profiles</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2023 Geetanjalites Alumni </p>
+
+    </div>
+  </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
